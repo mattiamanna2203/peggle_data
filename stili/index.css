@@ -1,0 +1,62 @@
+/**/
+body{
+  font-family: "Poppins",sans-serif;
+  padding:0;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: antiquewhite;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*MODIFICARE IL CONTENUTO DEL MAIN*/
+
+
+
+@media (max-width: 799px){
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (change this value to match your desired aspect ratio) */
+    overflow: hidden;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    margin-top: 100px;
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/*In questo modo quando la finestra avrà dimensioni maggiori di 1000px le colonne saranno 4*/
+@media (min-width: 800px){
+    .video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (change this value to match your desired aspect ratio) */
+    overflow: hidden;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    margin-top: 100px;
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+}

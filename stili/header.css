@@ -1,0 +1,81 @@
+/*MODIFICARE IL CONTENUTO DELL'HEADER*/
+
+/*Modifica lo stile dell'header*/
+header{
+    display: flex; 
+    position: fixed;
+    background-color: rgb(39,39,44);
+    color: white;
+    column-gap:30px;
+    justify-content:end;
+    padding-right: 20px;
+    height: 50px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+
+
+/*Modificare bottoni dell'header*/
+.header-button{
+  background-color: rgb(39,39,44);
+  border: none;
+}
+
+
+
+.header-ref-text{
+  color: white;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+
+}
+
+.header-button:hover .header-ref-text{
+  color: #02a783;
+  transition:  color 0.25s  ;
+}
+
+
+.header-button:active {
+  opacity: 0.5;
+}
+
+/*--------------------------------------------*/
+/*Modificare english div*/
+.get-english-version-div{
+  display: flex; 
+  align-items: center;
+  column-gap: 10px;
+}
+
+/*Modificare l'immagine del globo*/
+.globe-header-image{
+  width: 20px;
+  height: 20px;
+}
+
+/*Modificare il testo*/
+.english-text{
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.peggle-header-image{
+  height: 40px;
+  position: absolute;
+  left: 12px;
+}
+
+.peggle-header-image:active{
+  opacity: 0.5;  
+}
+/*--------------------------------------------*/
+
+
+

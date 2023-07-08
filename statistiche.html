@@ -1,0 +1,164 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Statistiche</title>
+
+      <!--Importare gli stili css-->
+      <link rel="stylesheet" href="stili/statistiche.css">
+      <link rel="stylesheet" href="stili/header.css">
+  </head>
+  <body onload="start_function()">
+    <header>
+        <img src="immagini/logo.ico" class="peggle-header-image">
+
+        <div>
+          <span class="header-ref-text" id="Statistiche" style="color: #02a783;" >Statistiche</span>
+        </div>
+
+
+        <div>
+          <button  class="header-button"> <a class="header-ref-text" href="about-us.html" id="Chi-siamo">Chi siamo</a></button>
+        </div>
+
+  
+
+        <div>
+         <button  class="header-button">
+            <div class="get-english-version-div">
+              <span class="english-text header-ref-text" >
+                English
+              </span> 
+              <img src="immagini/globe-header.jpg" class="globe-header-image">
+            </div>
+          </button>
+        </div>
+    </header>
+
+    <nav>
+      <div class="sidebar"> 
+ <div class="sidebar-header" id="sidebar-title-gruppi"> Gruppi </div>
+         <div class="sidebar-statistics sidebar-groups" >
+           <div class="stat-div" id="universita">
+            Università
+          </div>
+           <div class="stat-div" id="famiglia">
+            Famiglia
+          </div>
+        </div>
+        <div class="sidebar-header" id="sidebar-title-statistiche"> Statistiche </div>
+        
+        <div class="sidebar-statistics">
+          <div class="stat-div stats-giocatori">
+            Statistiche per giocatore
+          </div>
+          <ul id="stats-giocatori-menu" class="stat-div-menu">
+            <li  class="sub-stat-div" id="stats-giocatori-menu1">
+              Round vinti 
+            </li>
+            <li  class="sub-stat-div"id="stats-giocatori-menu2">
+              Round  amichevoli vinti 
+            </li>
+            <li  class="sub-stat-div" id="stats-giocatori-menu3">
+              Round vinti 
+              nei tornei
+            </li>
+            <li  class="sub-stat-div" id="stats-giocatori-menu4">
+              Punteggi massimi e minimi nei round
+            </li>
+            <li  class="sub-stat-div" id="stats-giocatori-menu8">
+              Partite vinte
+            </li>
+
+            <li  class="sub-stat-div" id="stats-giocatori-menu9">
+              Partite amichevoli vinte
+            </li>
+            <li  class="sub-stat-div" id="stats-giocatori-menu10">
+              Partite vinte nei tornei
+            </li>
+
+          <li  class="sub-stat-div" id="stats-giocatori-menu11">
+              Punteggi massimi e minimi nelle partite
+            </li>
+          <li  class="sub-stat-div" id="stats-giocatori-menu17">
+              Partecipazioni e vittorie nei tornei
+            </li>
+
+          <li  class="sub-stat-div" id="stats-giocatori-menu18">
+              Tutte le statistiche per giocatore
+            </li>
+          </ul>
+            
+    
+
+
+          <div  class="stat-div stats-scontri-diretti">
+            Scontri diretti
+          </div>
+          <ul id="scontri-diretti-menu" class="stat-div-menu">
+            <li  class="sub-stat-div" id="scontri-diretti-menu14">
+              Round disputati tra giocatori
+            </li>
+            <li  class="sub-stat-div" id="scontri-diretti-menu15">
+              Scontri diretti round
+            </li>
+            <li  class="sub-stat-div" id="scontri-diretti-menu16">
+              Scontri diretti partite
+            </li>
+          </ul>
+  
+        
+
+ 
+
+          <div class="stat-div stats-max-min-global">
+            Massimi e minimi generali
+          </div>
+          <ul id="max-min-global-menu" class="stat-div-menu">
+            <li class="sub-stat-div" id="max-min-global-menu5">
+              Punteggio minimo in un round
+            </li>
+            <li  class="sub-stat-div" id="max-min-global-menu6">
+              Punteggio massimo in un round
+            </li>
+            <li  class="sub-stat-div" id="max-min-global-menu12">
+              Punteggio minimo in una partita
+            </li>
+            <li  class="sub-stat-div" id="max-min-global-menu13">
+              Punteggio massimo in una partita
+            </li>
+          </ul>
+
+
+
+
+        
+          <div class="stat-div all-round">
+            Tutti i round giocati
+          </div>
+
+          <div class="stat-div all-partite">
+           Resoconto partite
+          </div>
+       </div>
+      </div>
+    </nav>
+
+
+    <main>
+      <div class="stat-table-output" id="tabella">
+        <table  id="tabella_output"></table>
+      </div>
+    </main>
+
+
+    <script src="JavaScript/statistiche_function.js"></script>
+    <script src="JavaScript/bottoni_statistiche.js"></script>
+    <script src="JavaScript/lingue_header.js"></script>
+    <script src="JavaScript/lingue_statistiche.js"></script>
+
+
+
+  </body>
+</html>
+
