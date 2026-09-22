@@ -51,7 +51,7 @@ function change_language_nav_statistiche_EN(){
 
   document.body.querySelector('#famiglia').innerText='Family';
 
-
+  document.body.querySelector('#Dottorato').innerText='PHD';
 
   //Titolo sidebar
   document.body.querySelector('#sidebar-title-statistiche').innerText='Stats';
@@ -127,6 +127,7 @@ function change_language_nav_statistiche_IT(){
 
   document.body.querySelector('#famiglia').innerText='Famiglia';
 
+  document.body.querySelector('#Dottorato').innerText='Dottorato';
 
 
 
