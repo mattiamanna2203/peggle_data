@@ -455,12 +455,12 @@ bottonElement_fam.addEventListener('click',
 );
 
 
-const bottonElement_dottorato = document.querySelector('#Dottorato');
+const bottonElement_dottorato = document.querySelector('#dottorato');
 bottonElement_dottorato.addEventListener('click',
     ()=>{
     removeClass();
     bottonElement_dottorato.classList.add("att");
-    sessionStorage.setItem('gruppo','Dottorato');
+    sessionStorage.setItem('gruppo','dottorato');
     }
 );
 
