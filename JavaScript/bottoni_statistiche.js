@@ -456,10 +456,10 @@ bottonElement_fam.addEventListener('click',
 
 
 const bottonElement_dottorato = document.querySelector('#Dottorato');
-bottonElement_fam.addEventListener('click',
+bottonElement_dottorato.addEventListener('click',
     ()=>{
     removeClass();
-    bottonElement_fam.classList.add("att");
+    bottonElement_dottorato.classList.add("att");
     sessionStorage.setItem('gruppo','Dottorato');
     }
 );
