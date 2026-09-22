@@ -455,6 +455,16 @@ bottonElement_fam.addEventListener('click',
 );
 
 
+const bottonElement_dottorato = document.querySelector('#Dottorato');
+bottonElement_fam.addEventListener('click',
+    ()=>{
+    removeClass();
+    bottonElement_fam.classList.add("att");
+    sessionStorage.setItem('gruppo','Dottorato');
+    }
+);
+
+
 function removeClass(){
   /*Questa funzione, creata  in parte da chatgpt, rimuove lo stato attivo da ogni pulsante.
   Viene utilizzata per rimuovere lo stato attivo da un pulsante una volta che ne viene selezionato uno nuovo.
